@@ -1,0 +1,9 @@
+	LD B,01H
+	LD D,B
+	LD A,20H
+	LD E,15H
+	ADD A,E
+	INC A
+	DEC E
+	HALT
+	.END	
